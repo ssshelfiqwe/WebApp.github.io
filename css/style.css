@@ -16,8 +16,8 @@ body {
 }
 
 .search-input {
-    width: 350px;
-    height: 35px;
+    width: 320px;
+    height: 40px;
     padding: 10px 10px 10px 40px;
     box-sizing: border-box;
     border-radius: 50px;
@@ -35,11 +35,11 @@ body {
 .menu {
     position: absolute;
     top: 28px;
-    left: 325px;
+    left: 295px;
 }
 
 .filters {
     position: absolute;
     top: 28px;
-    left: 290px;
+    left: 255px;
 }
