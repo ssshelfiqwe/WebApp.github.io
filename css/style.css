@@ -7,7 +7,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: #17171d;
+    background-color: #131316;
 }
 
 .container {
@@ -16,12 +16,12 @@ body {
 }
 
 .search-input {
-    width: 350px;
+    width: 345px;
     height: 50px;
     padding: 10px 10px 10px 45px;
     box-sizing: border-box;
     border-radius: 50px;
-    background-color: #18171e;
+    background-color: #151518;
     border: 1px solid #1c1c1c;
     box-shadow: inset 0 5px 12px rgba(0, 0, 0, 0.5);
 }
@@ -36,14 +36,14 @@ body {
 .menu {
     position: absolute;
     top: 32px;
-    left: 325px;
+    left: 320px;
     opacity: 0.7;
 }
 
 .filters {
     position: absolute;
     top: 32px;
-    left: 285px;
+    left: 280px;
     opacity: 0.7;
 }
 
@@ -54,13 +54,13 @@ body {
 }
 
 .card {
-    background-color: #18171e;
+    background-color: #151518;
     border: 1px solid #1c1c1c;
     border-radius: 40px;
     width: 160px;
     height: 350px;
-    margin-top: 15px;
-    margin-right: 20px;
+    margin-top: -15px;
+    margin-right: 25px;
     text-align: center;
     box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.5);
 }
@@ -75,7 +75,7 @@ body {
 
 .card h3 {
     color: #fff;
-    opacity: 0.7;
+    opacity: 0.8;
     margin: 5px 0 8px;
 }
 
@@ -86,8 +86,8 @@ body {
 }
 
 span {
-    opacity: 0.7;
-    color: rgb(234, 14, 14);
+    opacity: 1;
+    color: rgb(255, 0, 0);
 }
 
 .price {
@@ -109,4 +109,15 @@ span {
 
 .card button:hover {
     background-color: #0056b3;
+}
+
+.footer .container {
+    max-width: 370px;
+}
+
+.footer p {
+    background-color: rgb(16, 16, 18);
+    color: #fff;
+    opacity: 0.8;
+    text-align: center;
 }
