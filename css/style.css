@@ -229,6 +229,7 @@ p.sprice {
     left: 0;
     cursor: pointer;
     text-align: center;
+    color: #fff;
     background: rgb(255,157,243);
     background: linear-gradient(90deg, rgba(255,157,243,1) 0%, rgba(255,213,238,1) 100%);
     border: 1px solid #fff;
